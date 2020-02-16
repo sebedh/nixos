@@ -1,0 +1,8 @@
+xkb_symbols "se-esc"
+{
+  include "se(basic)"
+
+  key.type = "ONE_LEVEL";
+  key <CAPS>   { [    Escape ] };
+  key <ESC>    { [ Caps_Lock ] };
+};

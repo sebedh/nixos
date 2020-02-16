@@ -1,0 +1,7 @@
+xkb_symbols "us-esc"
+{
+  include "us(basic)"
+
+  key.type = "ONE_LEVEL";
+  key <CAPS>   { [ Escape ] };
+};

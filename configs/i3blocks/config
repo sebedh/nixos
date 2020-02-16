@@ -1,0 +1,20 @@
+command=~/.local/bin/statusbar/$BLOCK_NAME
+separator_block_width=15
+markup=pango
+
+
+[weather]
+interval=3600
+signal=5
+
+[memory]
+label=🧠
+interval=30
+color=#D5911A
+
+[battery]
+interval=5
+
+[time]
+command=echo $(date '+%Y %b %d (%a)  %H:%M v.%V')
+interval=30
